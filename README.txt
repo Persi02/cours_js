@@ -6,7 +6,7 @@ Programme pour apprendre JavaScript
 
 📘 Jours 1–2 : Rappel des fondations
 
-Variables (let, const), portée, hoisting
+letiables (let, const), portée, hoisting
 
 Fonctions fléchées et expressions
 
@@ -129,7 +129,7 @@ Export PDF (bonus)
 
 Révision du passage JS → React Hooks
 
-Manipulation du state vs variables
+Manipulation du state vs letiables
 
 Asynchrone avec useEffect et fetch
 

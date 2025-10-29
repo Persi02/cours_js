@@ -21,11 +21,10 @@ function createCounter() {
 }
 
 const compteur = createCounter();
-console.log(compteur.increment()); // 1
-console.log(compteur.increment()); // 2
-console.log(compteur.reset()); // 0
+console.log(compteur.increment());
+console.log(compteur.increment());
+console.log(compteur.reset());
 
-// Calculatrice simple
 function calculatrice(op, a, b) {
   switch (op) {
     case "+":

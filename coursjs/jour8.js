@@ -79,3 +79,56 @@ console.log(athena.informations);
 athena.attaques(persi);
 console.log(persi.informations);
 persi.coupSpecial(athena);
+
+/*let dateActuelle = new Date();
+
+console.log(dateActuelle.getDay()); // jour de la semaine (0 pour dimanche, 6 pour samedi)
+console.log(dateActuelle.getFullYear()); // année
+console.log(dateActuelle.getDate()); // jour du mois
+
+console.log(dateActuelle.getUTCDay());
+// Renvoi la date pour l'heure UTC (donc de Londres)
+// Les fonctions sont identiques, on ajoute simplement UTC
+
+dateActuelle.setFullYear(2750);
+console.log(dateActuelle.getFullYear());*/
+
+/*let dateActuelle = new Date();
+
+// toLocaleDateString = jour, mois, l'année
+// toLocaleTimeString = l'heure
+// toLocaleString     = jour, mois, l'année, l'heure
+// ON CHOISI LES OPTIONS QU'ON VEUT
+
+let dateLocale = dateActuelle.toLocaleString(navigator.language, {
+  weekday: 'long', // short (3 premières lettres), narrow (première lettre), long (toutes les lettres)
+  year: 'numeric', // numeric (xxxx), 2-digit (xx)
+  month: 'long', // short, narrow, long, numeric
+  day: 'numeric', // numeric, 2-digit
+  hour: 'numeric', // ...
+  minute: 'numeric',
+  second: 'numeric'
+});
+
+console.log(dateLocale);*/
+
+/*
+let dateActuelle = new Date();
+
+// toLocaleDateString = jour, mois, l'année
+// toLocaleTimeString = l'heure
+// toLocaleString     = jour, mois, l'année, l'heure
+// ON CHOISI LES OPTIONS QU'ON VEUT
+
+let dateLocale = dateActuelle.toLocaleString(navigator.language, {
+  weekday: 'long', // short (3 premières lettres), narrow (première lettre), long (toutes les lettres)
+  year: 'numeric', // numeric (xxxx), 2-digit (xx)
+  month: 'long', // short, narrow, long, numeric
+  day: 'numeric', // numeric, 2-digit
+  hour: 'numeric', // ...
+  minute: 'numeric',
+  second: 'numeric'
+});
+
+console.log(dateLocale);
+*/

@@ -22,9 +22,5 @@ function descrirePersonne(personne) {
 const pers = { nom: "Pierre", age: 25, ville: "Paris" };
 console.log(descrirePersonne(pers));
 
-// exercice
-//ajoute un objet avec ton nom et teste la fonction
-//experimente avec typeof ,parseInt, parseFloat
-
 console.log(parseFloat("3.14abc"));
 console.log(parseInt("3.14abc"));

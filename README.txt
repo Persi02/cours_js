@@ -1,142 +1,38 @@
-Programme pour apprendre JavaScript
+📘 Cours JavaScript
 
-🗓️ Semaine 1 – Réactivation et consolidation
+Ce dépôt contient mes notes et exercices pratiques sur le langage JavaScript, organisés par thème pour faciliter l’apprentissage et la révision.
 
-🎯 Objectif : Réviser à fond les bases modernes (ES6+) et retrouver les bons réflexes.
+📂 Structure du projet
 
-📘 Jours 1–2 : Rappel des fondations
+Le projet est divisé dans un dossier 'cours/' qui regroupe plusieurs fichiers .js, chacun correspondant à une partie spécifique du cours :
 
-letiables (let, const), portée, hoisting
+cours/
+│
+├── jour1.js        → Déclaration et utilisation des variables
+├── jour2.js        → Création et appel de fonctions
+├── jour3.js       → Les structures conditionnelles (if, else, switch)
+├── jour3.js          → Les boucles (for, while, do...while)
+├── classes.js          → Les classes et la programmation orientée objet
+├── requete.js         → Les requêtes (fetch API, async/await)
+└── ...
 
-Fonctions fléchées et expressions
+Un fichier 'index.html' permet de tester et exécuter les scripts directement dans le navigateur.
 
-Destructuring, spread/rest operators
+🚀 Objectif
 
-Template literals
-🧠 Exercice : Recode un mini script “gestion de produits” avec ajout, suppression et affichage dynamique d’une liste.
+Apprendre, pratiquer et maîtriser les bases du JavaScript moderne à travers des exemples simples et commentés.
 
-📘 Jours 3–4 : Tableaux et objets modernes
+🛠️ Utilisation
 
-Méthodes clés : map(), filter(), reduce(), find(), some()
+1. Cloner le dépôt :
+   git clone https://github.com/Persi02/cours_js
 
-Manipulation d’objets, copie immuable, références vs valeurs
-🧠 Exercice : Crée une fonction qui analyse une liste d’étudiants et calcule la moyenne, le meilleur et le moins bon.
+2. Ouvrir le fichier 'index.html' dans un navigateur.
+3. Modifier ou exécuter les fichiers .js dans le dossier 'cours/' pour expérimenter.
 
-📘 Jour 5 : Fonctions avancées
+📅 Contenu à venir
 
-Fonctions d’ordre supérieur
-
-Closures
-
-Fonctions pures et immuabilité
-🧠 Exercice : Recrée un mini module de compteur avec une closure (createCounter() → retourne increment, decrement, reset).
-
-📘 Jours 6–7 : Mini-projet
-
-👉 Projet 1 : Gestion des stagiaires (version JavaScript pur)
-
-Interface HTML simple (liste, bouton “ajouter/supprimer”)
-
-Utilisation du DOM
-
-Stockage dans localStorage
-🎯 Objectif : appliquer toutes les bases du JS moderne.
-
-🗓️ Semaine 2 – DOM, événements et API
-
-🎯 Objectif : Reconnecter JavaScript avec le navigateur et les données externes.
-
-📘 Jours 8–9 : DOM & événements
-
-querySelector, createElement, appendChild, innerHTML
-
-Gestion des événements (addEventListener)
-
-Manipulation du style et des classes
-🧠 Exercice : Crée un bouton “Mode sombre / Mode clair” qui enregistre la préférence dans localStorage.
-
-📘 Jours 10–11 : Fetch & Asynchrone
-
-fetch(), Promises, async/await
-
-Gestion des erreurs (try/catch)
-🧠 Exercice : Affiche une liste d’utilisateurs depuis une API publique (jsonplaceholder.typicode.com/users)
-
-📘 Jours 12–13 : JSON et API REST
-
-Lire et envoyer des données JSON
-
-Simuler des requêtes POST et DELETE avec fetch
-🧠 Exercice : Crée une petite interface CRUD simulée avec fetch et JSONPlaceholder.
-
-📘 Jour 14 : Mini-projet
-
-👉 Projet 2 : Mini application “Gestion des stagiaires avec API”
-
-Interface CRUD complète
-
-Données simulées depuis une API
-
-Filtres et recherche
-🎯 Objectif : Lier JS, DOM et API ensemble.
-
-🗓️ Semaine 3 – Concepts avancés
-
-🎯 Objectif : Passer au JavaScript professionnel.
-
-📘 Jours 15–16 : Classes et prototypes
-
-Syntaxe class, héritage, super
-
-Comprendre le prototype et this
-🧠 Exercice : Crée une classe Stagiaire et une classe Cours avec méthodes d’inscription.
-
-📘 Jours 17–18 : Modules ES6 et structuration du code
-
-import / export
-
-Organisation en fichiers
-
-Scope et encapsulation
-🧠 Exercice : Découpe ton projet “gestion stagiaire” en plusieurs modules JS.
-
-📘 Jours 19–20 : Performance et bonnes pratiques
-
-Débogage (console.table, breakpoints)
-
-Optimisation de boucles et sélecteurs
-
-Mémoire, garbage collector
-🧠 Exercice : Optimise un code lent (par ex. une boucle for qui filtre une grande liste).
-
-🗓️ Semaine 4 – Projets finaux et mise à niveau pro
-
-🎯 Objectif : Créer un vrai projet complet et te remettre au niveau pour React / Next.js.
-
-📘 Jours 21–24 : Projet final
-
-👉 Projet 3 : Tableau de bord “Gestion des stagiaires Pro”
-
-Dashboard dynamique avec statistiques (barres, moyennes, etc.)
-
-Filtrage par centre, cours, année
-
-Sauvegarde des données localement (ou via une fausse API)
-
-Export PDF (bonus)
-
-📘 Jours 25–27 : JavaScript et React/Next.js
-
-Révision du passage JS → React Hooks
-
-Manipulation du state vs letiables
-
-Asynchrone avec useEffect et fetch
-
-📘 Jours 28 : Revue & perfectionnement
-
-Nettoyage et amélioration du projet final
-
-Relecture du code
-
-Création d’un repo GitHub ou déploiement sur Vercel
+- Manipulation du DOM
+- Gestion des événements
+- Modules ES6
+- Projets pratiques

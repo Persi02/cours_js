@@ -1,8 +1,10 @@
+"use strict";
 //LES BASE DU LANGUAGE
 
-//letiable
+//let ,const
 let nom = "koto";
 let age = 23;
+const ville = "Antananarivo";
 
 //Affichage dans la console
 console.log(`Bonjour, je m'appelle ${nom} et j'ai ${age} ans.`);

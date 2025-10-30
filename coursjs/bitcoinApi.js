@@ -1,3 +1,5 @@
+"use strict";
+//pour essayer qu'il n y a pas des erreur silencieux
 const url = "https://blockchain.info/ticker";
 const price = document.querySelector("#price");
 price.style.display = "grid";

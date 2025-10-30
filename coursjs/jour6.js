@@ -1,4 +1,4 @@
-//fonction constructeur
+//fonction constructeur et heritage avec call
 
 function Animal(nombreDePattes, poids) {
   this.nombreDePattes = nombreDePattes;

@@ -1,3 +1,5 @@
+"use strict";
+
 // Déclaration classique
 function addition(a, b) {
   return a + b;

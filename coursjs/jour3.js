@@ -1,4 +1,3 @@
-//calculatrice
 function addition(nombreA, nombreB) {
   return nombreA + nombreB;
 }

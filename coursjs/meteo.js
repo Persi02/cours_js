@@ -33,10 +33,8 @@ if ("geolocation" in navigator) {
   };
   navigator.geolocation.watchPosition(
     (position) => {
-      console.log(position.coords.longitude);
-      console.log(position.coords.latitude);
       fetchData(
-        `lon=${position.coords.longitude}&lat=${position.coords.latitude}`
+        `lat=${position.coords.latitude}&lon=${position.coords.longitude}`
       );
     },
     error,
@@ -44,7 +42,9 @@ if ("geolocation" in navigator) {
   );
 
   function error() {
-    alert("Aucune position disponible.");
+    alert(
+      "votre position est temporairement indisponible ,veuillez taper votre ville"
+    );
   }
 } else {
   ville = "antananarivo";

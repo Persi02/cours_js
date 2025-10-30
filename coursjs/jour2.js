@@ -25,6 +25,7 @@ console.log(compteur.increment());
 console.log(compteur.increment());
 console.log(compteur.reset());
 
+//Calculatrice
 function calculatrice(op, a, b) {
   switch (op) {
     case "+":

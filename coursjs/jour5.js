@@ -1,3 +1,4 @@
+//DOM
 let test = document.querySelectorAll(".supprimer").forEach((el) => el.remove());
 // Créer les éléments
 let header = document.createElement("header");

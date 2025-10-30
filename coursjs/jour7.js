@@ -1,3 +1,5 @@
+//class
+
 class Utilisateur {
   constructor(nom, prenom) {
     this.nom = nom;

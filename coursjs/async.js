@@ -36,7 +36,6 @@ async function resultat() {
     console.log(scriptB);
   } catch (error) {
     console.log(error);
-    // document.head.lastChild.remove();
   }
 }
 

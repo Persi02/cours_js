@@ -1,3 +1,5 @@
+//fonction constructeur
+
 function Animal(nombreDePattes, poids) {
   this.nombreDePattes = nombreDePattes;
   this.poids = poids;

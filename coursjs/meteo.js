@@ -1,3 +1,5 @@
+//faire du requete avec ajax
+
 let ville = "Antananarivo";
 
 const fetchData = (location) => {

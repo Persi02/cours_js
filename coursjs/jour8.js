@@ -1,3 +1,4 @@
+//class avec extends(battle system)
 class Personnage {
   constructor(pseudo, classe, sante, attaque) {
     this.pseudo = pseudo;
